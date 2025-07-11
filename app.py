@@ -56,7 +56,6 @@ for zona in zonas:
         color=zona["color"],
         weight=2,
         fill=False,
-        dash_array='6,6'
     ).add_to(m)
 
     folium.map.Marker(
